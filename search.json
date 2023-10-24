@@ -1,0 +1,212 @@
+[
+  {
+    "objectID": "index.html#disclaimer",
+    "href": "index.html#disclaimer",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Disclaimer",
+    "text": "Disclaimer\n\nAny opinions expressed in this presentation are solely my own and not necessarily those of my employer (Hoffmann-La Roche Ltd)."
+  },
+  {
+    "objectID": "index.html#acknowledgements",
+    "href": "index.html#acknowledgements",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nPartly based on the manuscript “Improving Software Engineering in Biostatistics: Challenges and Opportunities” (arXiv) which is joint work with:\n\n\n\nHeidi Seibold\nAnne-Laure Boulesteix\nJuliane Manitz\nAlessandro Gasparini\nBurak K. Günhan\nOliver Boix\n\n\n\nArmin Schüler\nSven Fillinger\nSven Nahnsen\nAnna E. Jacob\nThomas Jaki\n\n\n\nIts content started from a panel discussion on “Research Software Engineering for Clinical Biostatistics” which took place at the 43rd Annual Conference of the International Society for Clinical Biostatistics (ISCB) in Newcastle in August 2022."
+  },
+  {
+    "objectID": "index.html#objective-of-this-keynote",
+    "href": "index.html#objective-of-this-keynote",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Objective of this keynote",
+    "text": "Objective of this keynote\n\n\nI would like to kick off a good discussion (hopefully also beyond this talk) so that we can learn from each other\nI would like you to reflect on how biostatistics is being carried out on a daily basis in your organizations\n\nWhy biostatistics? Because we are at R/Pharma, and also that is what I know about most about\n\nI would like you to strive to get yourself savvy in good software engineering practices and apply them in your daily job\nI would like you to influence your biostatistics colleagues and departments in our organizations"
+  },
+  {
+    "objectID": "index.html#my-path-to-biostatistics-in-pharma",
+    "href": "index.html#my-path-to-biostatistics-in-pharma",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "My path to biostatistics in Pharma",
+    "text": "My path to biostatistics in Pharma\n\n\nI was good in math and I really liked stochastics\n(“What is the chance of winning the lottery?”)\nBut I always had fun programming\n(Remember those days of Basic and Turbo Pascal?)\nI was also interested in medicine …\n… but I could faint when watching somebody draw blood from my arm\nSo I chose statistics because I could combine math and programming, and work with medical data!\nI was formally trained as a statistician (B.Sc., M.Sc., Ph.D.)\nI started working in the Pharma industry as a biostatistician"
+  },
+  {
+    "objectID": "index.html#what-i-did-not-do-during-those-first-years",
+    "href": "index.html#what-i-did-not-do-during-those-first-years",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "What I did not do during those first years",
+    "text": "What I did not do during those first years\n\n\nI did not store my programs in version control systems\nI did not worry too much about making my code readable by others\nI did not try to make calculations reproducible\nI did not get any code review of my study design simulations\nI did not write any unit tests for my packages"
+  },
+  {
+    "objectID": "index.html#some-tricks-i-learned-in-tech",
+    "href": "index.html#some-tricks-i-learned-in-tech",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Some tricks I learned in Tech",
+    "text": "Some tricks I learned in Tech\n\n\nAfter about 5 years I had the opportunity to switch gears and work at Google\nI learned a lot quickly about:\n\nhow to write unit tests\nhow to use a consistent code style\n\nhow to write design documents\nhow to name functions\nhow to review code and respond to review feedback\nhow to check in code into the (internal) repository\n\nAlso, but not that important:\n\nhow to write SQL queries, macros, unit tests for those\ngot to know memes and how to create new ones"
+  },
+  {
+    "objectID": "index.html#but-pharma-is-more-fun-for-me",
+    "href": "index.html#but-pharma-is-more-fun-for-me",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "But Pharma is more fun for me",
+    "text": "But Pharma is more fun for me\n\n\nI really liked that I did a lot of programming in a structured way in Google\nBut I missed the scientific aspects from Pharma …\n… where we deal not just with numbers, but also biology, medicine, patients, medical doctors, etc.\nAnd Roche just started venturing more into R territory\n(keyword: NEST project)\nSo I switched back to Roche, because it is a great place to work\nAnd I see lots of potential to apply Tech skills in Pharma!\n⇨ This is the topic this presentation\n⇨ How can we improve the way we work with code in Pharma?"
+  },
+  {
+    "objectID": "index.html#note",
+    "href": "index.html#note",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Note",
+    "text": "Note\n\nI am trying to zoom in here on the “pain points”\nThis is based on anecdotal stories from different organizations\nThis is not based on surveys or quantitative evidence collected in a structured way\nIn the discussion (here and later) we can learn more from each other\n\nIf your experience is similar, feel free to share the pain points\nIf your experience is different, then that is great and I would love to learn about it"
+  },
+  {
+    "objectID": "index.html#almost-all-biostatisticians-code",
+    "href": "index.html#almost-all-biostatisticians-code",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "(Almost) All biostatisticians code",
+    "text": "(Almost) All biostatisticians code\n\n\nWe don’t use calculators anymore, right?\nThere are a lot of graphical tools that we can use for simple tasks …\n… but it won’t be sufficient for most biostatistics use cases\nWe learn programming, maybe already in high school, or latest in undergraduate courses\nWe wrangle, analyze, visualize, predict, … biomedical data with code every day"
+  },
+  {
+    "objectID": "index.html#but-many-dont-take-it-serious-enough",
+    "href": "index.html#but-many-dont-take-it-serious-enough",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "But many don’t take it serious enough",
+    "text": "But many don’t take it serious enough\n\n\nMost of the coding we do alone without any discussion or review\nWe often copy and paste code from each other and adapt it every time\nWe often distinguish ourselves from “Statistical Programmers” and give them instructions\n(and feel we are better than them)\nWe often shy away from sharing our code because we think it is too ugly\nWe often don’t take enough time to write clean code because we are too busy\nWe often just develop code locally on our laptops\nWe rarely use version control systems"
+  },
+  {
+    "objectID": "index.html#cannot-handover-to-other-statisticians",
+    "href": "index.html#cannot-handover-to-other-statisticians",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Cannot handover to other statisticians",
+    "text": "Cannot handover to other statisticians\n\n\nStatisticians (too) take vacations, go on longer leave, switch companies, etc.\nThen another statistician (peers, managers) needs to back up or take over the project\nThey might need to revisit the design or analyses and thus need to modify the code\nMight not find the code at all (because not in a version controlled repository)\nMight not be able to understand the code (because unreadable by others)"
+  },
+  {
+    "objectID": "index.html#cannot-maintain-code",
+    "href": "index.html#cannot-maintain-code",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Cannot maintain code",
+    "text": "Cannot maintain code\n\n\nNot just switching between different statisticians, but also over time, things can become difficult\n\nWhen I read code from one, two years ago, it is almost code from another person\nIf I look back at my quickly written, ugly code, which is not documented, I have a very hard time\n\nIf you change to the copy and paste code, it won’t help anybody else\n\nIf you discover bugs, those cannot be fixed across projects in one go\nIf you add functionality, it will not be inherited by the other projects"
+  },
+  {
+    "objectID": "index.html#cannot-prevent-bugs",
+    "href": "index.html#cannot-prevent-bugs",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Cannot prevent bugs",
+    "text": "Cannot prevent bugs\n\n\nIf we change the code and don’t have tests, we don’t know if it still works correctly\nTypically we just run then the whole script again and if it does not fail with an error we think it is fine\nBut it might still produce wrong results due to new bugs\nAnd if we fix a bug, and don’t add a test for it at the same time, it might come back later\nThis is even more important in software packages that we create for us and others"
+  },
+  {
+    "objectID": "index.html#cannot-reproduce-results",
+    "href": "index.html#cannot-reproduce-results",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Cannot reproduce results",
+    "text": "Cannot reproduce results\n\n\nWhen we don’t prepare for it, new versions of R or R packages can lead to different results\n⇨ This can be a real problem e.g. during inspections\nVery hard to reproduce manual steps:\n\ne.g. moving data around, running scripts, creating documents, etc.\nwould need to be thoroughly documented to have a small chance, but that is usually omitted\n\nBut Statistics is a key component of the scientific value chain …\n… thus has a responsibility to ensure reproducibility"
+  },
+  {
+    "objectID": "index.html#cannot-submit-to-external-stakeholders",
+    "href": "index.html#cannot-submit-to-external-stakeholders",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Cannot submit to external stakeholders",
+    "text": "Cannot submit to external stakeholders\n\n\nIf we cannot share reliably internally in the company, then less so with external stakeholders\nSo far, analyses that need to be shared with regulators are often rewritten by statistical programmers\n\nDuplicates the work with original coding and has additional risk of introducing bugs\nBut is usually not done for study protocol contents (sample size, simulations)\n\nOften reporting code was translated to proprietary software because that was considered the only “validated” way\n\nStill can have bugs in any software and the actual analysis scripts and macros"
+  },
+  {
+    "objectID": "index.html#become-aware-of-the-issues",
+    "href": "index.html#become-aware-of-the-issues",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Become aware of the issues",
+    "text": "Become aware of the issues\n\n\nMost statisticians actually have examples where lax programming led to such problems\nLet’s realize that a lot is at stake:\nwe are not building airplanes that could fall from the sky …\n… but we are impacting the life of patients!\nIt matters for patients that we\n\ncalculate the right sample size,\nmore generally determine the right clinical trial design,\nhelp finding the right molecules based on preclinical experiments,\netc."
+  },
+  {
+    "objectID": "index.html#take-software-engineering-seriously",
+    "href": "index.html#take-software-engineering-seriously",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Take software engineering seriously",
+    "text": "Take software engineering seriously\n\n\nWe know what we should do, let’s just take the time and energy to do it\nWe can learn a lot from the statistical programmers:\n\norganize ourselves with standards (starts with naming conventions for files and folders)\nautomate repetitive tasks\nconsider double programming of key results\n\nProcesses should consider code in the same priority as documents (statistical analysis plans etc.)\n\nthat implies code review, good and consistent code style, business continuity, …\n\nStrive to be on par with Tech companies with regards to coding quality"
+  },
+  {
+    "objectID": "index.html#educate-educate-educate",
+    "href": "index.html#educate-educate-educate",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Educate, educate, educate",
+    "text": "Educate, educate, educate\n\n\nStarts with secondary schools:\n\ncomputer science should become a standard subject, not just be an extra\nsame importance as math, geography, physics, etc.\n\nContinues with undergraduate and graduate programs:\n\ncomputer science must become a key component of statistics and data science programs\ngood software engineering practices warrant dedicated courses\n\nContinues with post-graduate education during the work life:\nonline courses, software engineering workshops, conference sessions, etc."
+  },
+  {
+    "objectID": "index.html#establish-dedicated-teams",
+    "href": "index.html#establish-dedicated-teams",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Establish dedicated teams",
+    "text": "Establish dedicated teams\n\n\nResearch Software Engineering teams are now established in academia, including data science institutions\nSimilarly pharma companies are establishing software engineering focused teams\nDirect focus is often development of reusable software\nWe should not stop there but also strive to improve the day to day work:\nbiostatistics, medical writing, preclinical experiments, etc.\nSoftware engineering work is complex, so we need top talents for this"
+  },
+  {
+    "objectID": "index.html#provide-attractive-career-paths",
+    "href": "index.html#provide-attractive-career-paths",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Provide attractive career paths",
+    "text": "Provide attractive career paths\n\n\nNeed to be able to attract and retain top talents\nDefining the job role can have different perspectives\n\nWe can think about an evolution of “statistical programmers”\nOr a convergence of “statisticians” and “statistical programmers”\nOr a new definition of “statistical software engineers”\n\nImportant is to make these careers attractive:\n\nsame compensation as for biostatisticians or methodology experts\nsame respect in the hierarchy of disciplines\nsame career levels possible including leadership roles"
+  },
+  {
+    "objectID": "index.html#collaborate-across-companies",
+    "href": "index.html#collaborate-across-companies",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Collaborate across companies",
+    "text": "Collaborate across companies\n\n\nMore natural now that we use R and other open source software\nHas been made so much easier in the last decade\n(e.g. video conferencing, cloud based documents, code sharing platforms)\nStakeholders ask for companies to work together towards standards,\nrather than receiving different solutions from each company\nLoosely coupled software modules allow to “plug and play”\n\ncombining different modules to make them fit company standards\nconneting to internals via company specific extensions\n\nKey opportunity in contrast to previous proprietary software based, company siloed, stack"
+  },
+  {
+    "objectID": "index.html#r-package-crmpack",
+    "href": "index.html#r-package-crmpack",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "R Package crmPack",
+    "text": "R Package crmPack\n\n\ncrm stands for continual reassessment method (Bayesian design for dose escalation)\nWe started in 2013 with custom R scripts running JAGS code to run Markov Chain Monte Carlo (MCMC)\nRealized in 2014 that we need to have a way to avoid copy and paste of these via an R package\nPublished on CRAN in 2015\nDescribed in a paper in 2019, and other companies started to use it\nJoined forces about end of 2021 to develop the package further together"
+  },
+  {
+    "objectID": "index.html#working-group-openstatsware",
+    "href": "index.html#working-group-openstatsware",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Working group openstatsware",
+    "text": "Working group openstatsware\n\n\nHas been founded in August 2022 as working group in the ASA Biopharmaceutical Section\n~40 members from over 25 pharma companies, CRO, etc.\n\nopen for new members\n\nFocuses on\n\nbuilding packages together (already on CRAN are mmrm and brms.mmrm)\ndisseminating good software engineering (SWE) practices (workshops, videos)\n\nMore details were in the talk by Ya Wang from Tuesday"
+  },
+  {
+    "objectID": "index.html#tools-for-reproducible-research",
+    "href": "index.html#tools-for-reproducible-research",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Tools for reproducible research",
+    "text": "Tools for reproducible research\nMany great tools exist to help with reproducibility of statistical analyses (see CRAN task view), e.g.:\n\n\nSweave (2002)\nknitr and Rmarkdown (2014)\npackrat (2014)\nofficer (2017)\nusethis (2017)\nrenv (2019)\ntargets (2020)\nquarto (2021)"
+  },
+  {
+    "objectID": "index.html#tools-for-package-developers",
+    "href": "index.html#tools-for-package-developers",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Tools for package developers",
+    "text": "Tools for package developers\nSimilarly lots of tools have been provided for package developers:\n\n\ntestthat (2009)\ndevtools (2011)\ncheckmate (2014)\nlintr (2014)\nspelling (2017)\nstyler (2017)\npkgdown (2018)\nprecommit (2020)"
+  },
+  {
+    "objectID": "index.html#templates-to-start-from-use-cases",
+    "href": "index.html#templates-to-start-from-use-cases",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Templates to start from use cases",
+    "text": "Templates to start from use cases\nTemplates can be a great start to centralize code for reoccurring use cases, e.g.:\n\n\nTLG Catalog\nBiomarker Analysis Catalog\nRPACT Vignettes (Clinical trial design)\nMediana case studies (Simulations of trials)\nFalcon (FDA Safety Tables and Figures)"
+  },
+  {
+    "objectID": "index.html#guidelines-for-good-practices",
+    "href": "index.html#guidelines-for-good-practices",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Guidelines for good practices",
+    "text": "Guidelines for good practices\n\n\nrOpenSci\n\nNon-profit initiative founded in 2011\nStaff, process, guidelines for Statistical Software Peer Review of R packages\n\nThe Turing Way\n\nStarted in 2019 as a guide for reproducibility (covering Version Control, Code Testing, and Continuous integration)\nNow encompasses guides for Reproducible Research, Project Design, Communication, Collaboration, Ethical Research"
+  },
+  {
+    "objectID": "index.html#guidelines-for-good-practices-contd",
+    "href": "index.html#guidelines-for-good-practices-contd",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Guidelines for good practices (cont’d)",
+    "text": "Guidelines for good practices (cont’d)\n\n\n“Best practices in statistical computing” (Sanchez et al., 2021)\n\n5 steps for implementing a code quality assurance (QA) process\n\nadherence to clean and consistent code style\nclear written documentation (code, workflow, decisions)\ncareful version control\ngood data management\nregular testing and review"
+  },
+  {
+    "objectID": "index.html#workshops-teaching-good-practices",
+    "href": "index.html#workshops-teaching-good-practices",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Workshops teaching good practices",
+    "text": "Workshops teaching good practices\n\n\n“Good Software Engineering Practices for R Packages”\n\nopenstatsware have run five workshops in 2023\n\n“The Carpentries”\n\nTeaches foundational coding and data science skills to researchers worldwide\nTeaching material on software, data, and library is available\n\n“Making Data Science Work for Clinical Reporting”\n\nCoursera course on how principles and methods from data science can be applied in clinical reporting"
+  },
+  {
+    "objectID": "index.html#call-to-action-1",
+    "href": "index.html#call-to-action-1",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Call to action",
+    "text": "Call to action\n\n\nLet’s be honest about how we are doing biostatistics in our companies\nLet’s realize that a lot depends on doing the software engineering well\nLet’s get savvy with the tools and good practices ourselves to improve our habits\nLet’s influence our colleagues and managers in our companies to improve structures and processes\nLet’s realize the benefits from improved software engineering in biostatistics!\n\n\n\n\nWhy We Need to Improve Software Engineering in Biostatistics | License"
+  }
+]
