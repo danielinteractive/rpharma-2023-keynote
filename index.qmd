@@ -493,3 +493,7 @@ Templates can be a great start to centralize code for reoccurring use cases, e.g
 
 :::
 
+## Thank you!
+
+These slides are at  
+[danielinteractive.github.io/rpharma-2023-keynote](https://danielinteractive.github.io/rpharma-2023-keynote/)
