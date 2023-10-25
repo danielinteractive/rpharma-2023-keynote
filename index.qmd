@@ -16,7 +16,7 @@ format:
 preload-iframes: true
 ---
 
-# Preamble {background-iframe="colored-particles/index.html"}
+# Preamble {background-iframe="colored-particles.html"}
 
 ## Disclaimer
 
@@ -138,7 +138,7 @@ Its content started from a panel discussion on "Research Software Engineering fo
   
 :::
 
-# Programming is ubiquitous, but (still) neglected {background-iframe="colored-particles/index.html"}
+# Programming is ubiquitous, but (still) neglected {background-iframe="colored-particles.html"}
 
 ## Note
 
@@ -176,7 +176,7 @@ Its content started from a panel discussion on "Research Software Engineering fo
 
 :::
 
-# Why is this a problem? {background-iframe="colored-particles/index.html"}
+# Why is this a problem? {background-iframe="colored-particles.html"}
 
 ## Cannot handover to other statisticians
 
@@ -242,7 +242,7 @@ Its content started from a panel discussion on "Research Software Engineering fo
 
 :::
 
-# What can we do about it? {background-iframe="colored-particles/index.html"}
+# What can we do about it? {background-iframe="colored-particles.html"}
 
 ## Become aware of the issues
 
@@ -335,7 +335,7 @@ Its content started from a panel discussion on "Research Software Engineering fo
 
 :::
 
-# Just A Few Examples {background-iframe="colored-particles/index.html"}
+# Just A Few Examples {background-iframe="colored-particles.html"}
 
 ## R Package [`crmPack`](https://roche.github.io/crmPack)
 
@@ -454,7 +454,7 @@ Templates can be a great start to centralize code for reoccurring use cases, e.g
 
 :::
 
-# Call to action {background-iframe="colored-particles/index.html"}
+# Call to action {background-iframe="colored-particles.html"}
 
 ## Call to action
 
