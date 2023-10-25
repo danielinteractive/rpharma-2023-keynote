@@ -65,11 +65,23 @@ Its content started from a panel discussion on "Research Software Engineering fo
 
 ## What can happen due to bad coding?
 
-![](news-part1.png)
+![[https://www.swissinfo.ch/eng/swiss-government-corrects-election-figures-on-political-party-strength/48924206](https://www.swissinfo.ch/eng/swiss-government-corrects-election-figures-on-political-party-strength/48924206)](news-part1.png)
 
 ## What can happen due to bad coding? (cont'd)
 
-![](news-part2.png)
+![[https://www.swissinfo.ch/eng/swiss-government-corrects-election-figures-on-political-party-strength/48924206](https://www.swissinfo.ch/eng/swiss-government-corrects-election-figures-on-political-party-strength/48924206)](news-part2.png)
+
+## Another example, now from biostatistics
+
+![[https://jamanetwork.com/journals/jama/fullarticle/2752474](https://jamanetwork.com/journals/jama/fullarticle/2752474)](retract-part1.png)
+
+## Another example, now from biostatistics (cont'd)
+
+![[https://jamanetwork.com/journals/jama/fullarticle/2752474](https://jamanetwork.com/journals/jama/fullarticle/2752474)](retract-part2.png)
+
+## Another example, now from biostatistics (cont'd)
+
+![[https://jamanetwork.com/journals/jama/fullarticle/2752474](https://jamanetwork.com/journals/jama/fullarticle/2752474)](retract-part3.png)
 
 # Where I am coming from with this topic {background-iframe="https://cicdguy.github.io/colored-particles/"}
 
@@ -260,6 +272,10 @@ Its content started from a panel discussion on "Research Software Engineering fo
 
 :::
 
+## Become aware of the issues (cont'd)
+
+![Significance, 18 (3): 6-7. [https://doi.org/10.1111/1740-9713.01522](https://doi.org/10.1111/1740-9713.01522)](schwab-held-significance.png)
+
 ## Take software engineering seriously
 
 ::: {.incremental}
@@ -274,6 +290,10 @@ Its content started from a panel discussion on "Research Software Engineering fo
 - Strive to be on par with Tech companies with regards to coding quality
 
 :::
+
+## Take software engineering seriously (cont'd)
+
+![Significance, 18 (4): 42-44. [https://doi.org/10.1111/1740-9713.01554](https://doi.org/10.1111/1740-9713.01554)](seibold-charlton-significance.png)
 
 ## Educate, educate, educate
 
