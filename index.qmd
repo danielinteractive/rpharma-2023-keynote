@@ -16,7 +16,7 @@ format:
 preload-iframes: true
 ---
 
-# Preamble {background-iframe="colored-particles.html"}
+# Preamble {background-iframe="https://cicdguy.github.io/colored-particles/"}
 
 ## Disclaimer
 
@@ -71,7 +71,7 @@ Its content started from a panel discussion on "Research Software Engineering fo
 
 ![](news-part2.png)
 
-# Where I am coming from with this topic {background-iframe="colored-particles.html"}
+# Where I am coming from with this topic {background-iframe="https://cicdguy.github.io/colored-particles/"}
 
 ## My path to biostatistics in Pharma
 
@@ -138,7 +138,7 @@ Its content started from a panel discussion on "Research Software Engineering fo
   
 :::
 
-# Programming is ubiquitous, but (still) neglected {background-iframe="colored-particles.html"}
+# Programming is ubiquitous, but (still) neglected {background-iframe="https://cicdguy.github.io/colored-particles/"}
 
 ## Note
 
@@ -176,7 +176,7 @@ Its content started from a panel discussion on "Research Software Engineering fo
 
 :::
 
-# Why is this a problem? {background-iframe="colored-particles.html"}
+# Why is this a problem? {background-iframe="https://cicdguy.github.io/colored-particles/"}
 
 ## Cannot handover to other statisticians
 
@@ -242,7 +242,7 @@ Its content started from a panel discussion on "Research Software Engineering fo
 
 :::
 
-# What can we do about it? {background-iframe="colored-particles.html"}
+# What can we do about it? {background-iframe="https://cicdguy.github.io/colored-particles/"}
 
 ## Become aware of the issues
 
@@ -335,7 +335,7 @@ Its content started from a panel discussion on "Research Software Engineering fo
 
 :::
 
-# Just A Few Examples {background-iframe="colored-particles.html"}
+# Just A Few Examples {background-iframe="https://cicdguy.github.io/colored-particles/"}
 
 ## R Package [`crmPack`](https://roche.github.io/crmPack)
 
@@ -454,7 +454,7 @@ Templates can be a great start to centralize code for reoccurring use cases, e.g
 
 :::
 
-# Call to action {background-iframe="colored-particles.html"}
+# Call to action {background-iframe="https://cicdguy.github.io/colored-particles/"}
 
 ## Call to action
 
