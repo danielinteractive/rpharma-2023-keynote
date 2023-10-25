@@ -14,6 +14,11 @@ format:
     toc-depth: 1
     footer: 'Why We Need to Improve Software Engineering in Biostatistics | [License](http://creativecommons.org/licenses/by-sa/4.0/ "License: CC BY-SA 4.0")'
 preload-iframes: true
+title-slide-attributes: 
+  data-background-image: research-progress.png
+  data-background-size: 30%
+  data-background-opacity: "1"
+  data-background-position: 95% 85%
 ---
 
 # Preamble {background-iframe="https://cicdguy.github.io/colored-particles/"}
