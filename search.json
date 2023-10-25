@@ -25,14 +25,35 @@
     "href": "index.html#what-can-happen-due-to-bad-coding",
     "title": "Why We Need to Improve Software Engineering in Biostatistics",
     "section": "What can happen due to bad coding?",
-    "text": "What can happen due to bad coding?"
+    "text": "What can happen due to bad coding?\n\nhttps://www.swissinfo.ch/eng/swiss-government-corrects-election-figures-on-political-party-strength/48924206"
   },
   {
     "objectID": "index.html#what-can-happen-due-to-bad-coding-contd",
     "href": "index.html#what-can-happen-due-to-bad-coding-contd",
     "title": "Why We Need to Improve Software Engineering in Biostatistics",
     "section": "What can happen due to bad coding? (cont’d)",
-    "text": "What can happen due to bad coding? (cont’d)"
+    "text": "What can happen due to bad coding? (cont’d)\n\nhttps://www.swissinfo.ch/eng/swiss-government-corrects-election-figures-on-political-party-strength/48924206"
+  },
+  {
+    "objectID": "index.html#another-example-now-from-biostatistics",
+    "href": "index.html#another-example-now-from-biostatistics",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Another example, now from biostatistics",
+    "text": "Another example, now from biostatistics\n\nhttps://jamanetwork.com/journals/jama/fullarticle/2752474"
+  },
+  {
+    "objectID": "index.html#another-example-now-from-biostatistics-contd",
+    "href": "index.html#another-example-now-from-biostatistics-contd",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Another example, now from biostatistics (cont’d)",
+    "text": "Another example, now from biostatistics (cont’d)\n\nhttps://jamanetwork.com/journals/jama/fullarticle/2752474"
+  },
+  {
+    "objectID": "index.html#another-example-now-from-biostatistics-contd-1",
+    "href": "index.html#another-example-now-from-biostatistics-contd-1",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Another example, now from biostatistics (cont’d)",
+    "text": "Another example, now from biostatistics (cont’d)\n\nhttps://jamanetwork.com/journals/jama/fullarticle/2752474"
   },
   {
     "objectID": "index.html#my-path-to-biostatistics-in-pharma",
@@ -126,11 +147,25 @@
     "text": "Become aware of the issues\n\n\nMost statisticians actually have examples where lax programming led to such problems\nLet’s realize that a lot is at stake:\nwe are not building airplanes that could fall from the sky …\n… but we are impacting the life of patients!\nIt matters for patients that we\n\ncalculate the right sample size,\nmore generally determine the right clinical trial design,\nhelp finding the right molecules based on preclinical experiments,\netc."
   },
   {
+    "objectID": "index.html#become-aware-of-the-issues-contd",
+    "href": "index.html#become-aware-of-the-issues-contd",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Become aware of the issues (cont’d)",
+    "text": "Become aware of the issues (cont’d)\n\nSignificance, 18 (3): 6-7. https://doi.org/10.1111/1740-9713.01522"
+  },
+  {
     "objectID": "index.html#take-software-engineering-seriously",
     "href": "index.html#take-software-engineering-seriously",
     "title": "Why We Need to Improve Software Engineering in Biostatistics",
     "section": "Take software engineering seriously",
     "text": "Take software engineering seriously\n\n\nWe know what we should do, let’s just take the time and energy to do it\nWe can learn a lot from the statistical programmers:\n\norganize ourselves with standards (starts with naming conventions for files and folders)\nautomate repetitive tasks\nconsider double programming of key results\n\nProcesses should consider code in the same priority as documents (statistical analysis plans etc.)\n\nthat implies code review, good and consistent code style, business continuity, …\n\nStrive to be on par with Tech companies with regards to coding quality"
+  },
+  {
+    "objectID": "index.html#take-software-engineering-seriously-contd",
+    "href": "index.html#take-software-engineering-seriously-contd",
+    "title": "Why We Need to Improve Software Engineering in Biostatistics",
+    "section": "Take software engineering seriously (cont’d)",
+    "text": "Take software engineering seriously (cont’d)\n\nSignificance, 18 (4): 42-44. https://doi.org/10.1111/1740-9713.01554"
   },
   {
     "objectID": "index.html#educate-educate-educate",
