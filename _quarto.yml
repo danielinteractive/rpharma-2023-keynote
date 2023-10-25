@@ -1,5 +1,3 @@
 project:
   type: website
   title: "Slides for R/Pharma 2023 Keynote"
-
-format: revealjs

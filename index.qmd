@@ -13,7 +13,10 @@ format:
     toc: true
     toc-depth: 1
     footer: 'Why We Need to Improve Software Engineering in Biostatistics | [License](http://creativecommons.org/licenses/by-sa/4.0/ "License: CC BY-SA 4.0")'
+preload-iframes: true
 ---
+
+## bla {background-iframe="hello-matrix/index.html"}
 
 # Preamble
 
