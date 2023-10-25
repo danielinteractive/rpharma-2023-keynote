@@ -63,6 +63,14 @@ Its content started from a panel discussion on "Research Software Engineering fo
 
 :::
 
+## What can happen due to bad coding?
+
+![](news-part1.png)
+
+## What can happen due to bad coding? (cont'd)
+
+![](news-part2.png)
+
 # Where I am coming from with this topic
 
 ## My path to biostatistics in Pharma
