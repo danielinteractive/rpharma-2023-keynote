@@ -71,7 +71,7 @@ Its content started from a panel discussion on "Research Software Engineering fo
 
 ![](news-part2.png)
 
-# Where I am coming from with this topic
+# Where I am coming from with this topic {background-iframe="colored-particles.html"}
 
 ## My path to biostatistics in Pharma
 
